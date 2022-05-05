@@ -23,4 +23,4 @@ release.properties
 
 # IntelliJ IDEA files
 *.iml
-.idea
+./.idea
