@@ -3,8 +3,8 @@ public class Coche {
     public Coche( int ctPuerto){
         puertas+=ctPuerto;
     }
-    public int getPuertas(){
-       return puertas;
+    public void getPuertas(){
+       System.out.println("Puertas :"+puertas);
     }
     public void aumPuertas(){
         puertas+=1;
