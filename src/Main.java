@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args){
-        int result= suma(10,20);
+        int result= suma(10,20, 10);
         Coche mycoche=  new Coche(1);
         mycoche.aumPuertas();
         mycoche.getPuertas();
@@ -9,8 +9,8 @@ public class Main {
         mycoche.getPuertas();
         System.out.println("Resultado de la suma: "+ result);
     }
-    public static int suma(int a, int b){
-        return a + b;
+    public static int suma(int a, int b,int c){
+        return a + b + c;
     }
 
 }
